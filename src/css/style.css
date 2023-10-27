@@ -1,0 +1,39 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;    
+    height: 31rem;
+    width: 20rem;
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+}
+
+.card .qr-code{
+    width: 18rem;
+    border-radius: 0.7rem;
+    
+}
+
+.card .titulo{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.card .descritivo{
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.3rem;
+    padding: 0 1.5rem 2rem;
+}
